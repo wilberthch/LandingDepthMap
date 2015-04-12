@@ -1,0 +1,13 @@
+﻿  SDL.cpp
+SDL.cpp(7): warning C4800: 'SDL_Surface *' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+  main.cpp
+main.cpp(59): warning C4800: 'INuiSensor *' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+main.cpp(71): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+main.cpp(100): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+main.cpp(101): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+main.cpp(162): warning C4244: 'argumento' : conversión de 'const int' a 'GLfloat'; posible pérdida de datos
+main.cpp(164): warning C4244: 'argumento' : conversión de 'const int' a 'GLfloat'; posible pérdida de datos
+main.cpp(166): warning C4244: 'argumento' : conversión de 'const int' a 'GLfloat'; posible pérdida de datos
+  Generando código...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: la biblioteca predeterminada'msvcrt.lib' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+  KinectTutorial2.vcxproj -> C:\Users\cic\Downloads\2_Depth\2_Depth\Debug\KinectTutorial2.exe

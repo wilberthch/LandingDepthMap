@@ -1,0 +1,22 @@
+﻿Compilación iniciada a las 11/04/2015 12:58:00 p.m..
+     1>Proyecto "C:\Users\cic\Downloads\2_Depth\2_Depth\KinectTutorial2.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v1.7\\inc" /I"C:\SDL-1.2.15\include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp SDL.cpp
+         main.cpp
+     1>main.cpp(34): warning C4800: 'INuiSensor *' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>main.cpp(71): warning C4244: 'argumento' : conversión de 'const int' a 'GLfloat'; posible pérdida de datos
+     1>main.cpp(73): warning C4244: 'argumento' : conversión de 'const int' a 'GLfloat'; posible pérdida de datos
+     1>main.cpp(75): warning C4244: 'argumento' : conversión de 'const int' a 'GLfloat'; posible pérdida de datos
+         SDL.cpp
+     1>SDL.cpp(7): warning C4800: 'SDL_Surface *' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+         Generando código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cic\Downloads\2_Depth\2_Depth\Release\KinectTutorial2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.7\\lib\x86" /LIBPATH:"C:\SDL-1.2.15\lib\x86" kinect10.lib SDL.lib SDLmain.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\cic\Downloads\2_Depth\2_Depth\Release\KinectTutorial2.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cic\Downloads\2_Depth\2_Depth\Release\KinectTutorial2.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\SDL.obj
+     1>LINK : warning LNK4075: se omite '/INCREMENTAL' debido a la especificación '/OPT:ICF'
+         KinectTutorial2.vcxproj -> C:\Users\cic\Downloads\2_Depth\2_Depth\Release\KinectTutorial2.exe
+     1>Compilación del proyecto terminada "C:\Users\cic\Downloads\2_Depth\2_Depth\KinectTutorial2.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.15
